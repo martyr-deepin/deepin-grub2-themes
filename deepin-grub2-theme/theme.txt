@@ -12,6 +12,7 @@ desktop-image: "background.jpg"
 desktop-color: "#000000"
 terminal-box: "terminal_*.png"
 terminal-font: "Fixed Regular 13"
+# terminal-font: "Unifont Regular 16"
 
 # Show the boot menu
 + boot_menu {
@@ -27,14 +28,16 @@ terminal-font: "Fixed Regular 13"
   # item_font = "FZChaoCuHei-M10 Bold 12"
   # item_font = "FZChaoCuHei-M10 Regular 12"
   # item_font = "DejaVu Sans Regular 16"
-  item_font = "DejaVu Sans Bold 16"
+  # item_font = "DejaVu Sans Bold 16"
   # item_font = "DejaVu Serif Regular 16"
+  item_font = "Courier 10 Pitch Bold 16"
   # selected_item_font = "WenQuanYi Zen Hei Regular 16"
   # selected_item_font = "FZChaoCuHei-M10 Bold 32"
   # selected_item_font = "FZChaoCuHei-M10 Regular 32"
   # selected_item_font = "DejaVu Sans Regular 24"
-  selected_item_font = "DejaVu Sans Bold 24"
+  # selected_item_font = "DejaVu Sans Bold 24"
   # selected_item_font = "DejaVu Serif Regular 24"
+  selected_item_font = "Courier 10 Pitch Bold 24"
   item_color = "#a6a6a6"
   selected_item_color = "#fefefe"
   # item_height = 42
@@ -66,25 +69,6 @@ terminal-font: "Fixed Regular 13"
   # font ="FZChaoCuHei-M10 Regular 12"
   align = "left"
 }
-# + label {
-#   top = 82%
-#   left = 55%+30
-#   width = 10
-#   id = "__timeout__"
-#   text = " %d "
-#   color = "#a34545"
-#   font = "DejaVu Sans Bold 14"
-#   align = "left"
-# }
-# + label {
-#   top = 82%
-#   left = 55%+30+10
-#   id = "__timeout__"
-#   text = "seconds"
-#   color = "#a8a8a8"
-#   font = "DejaVu Sans Bold 14"
-#   align = "left"
-# }
 
 # Show an informational message below the boot menu
 + label {
@@ -109,57 +93,3 @@ terminal-font: "Fixed Regular 13"
   # font ="FZChaoCuHei-M10 Regular 12"
   align = "left"
 }
-
-# + vbox {
-  # top = 82%+20
-  # top = 88%
-  # left = 25%
-  # left = 15%
-    # + hbox {
-      # + label {
-      #   id = "__timeout__"
-      #   text = "Booting in %d"
-      #   color = "#a8a8a8"
-      #   # font = "XHei Ubuntu Regular 16"
-      #   font = "DejaVu Sans Bold 14"
-      #   align = "left"
-      # }
-      # + label {
-      #   id = "__timeout__"
-      #   # top = 82%
-      #   # left = 25%
-      #   # width = 100
-      #   # height = 20
-      #   # text = "还有 %d秒 电脑将启动"
-      #   text = " %d "
-      #   color = "#a34545"
-      #   # font = "XHei Ubuntu Regular 16"
-      #   font = "DejaVu Sans Bold 14"
-      #   align = "left"
-      # }
-      # + label {
-      #   id = "__timeout__"
-      #   text = "seconds %d"
-      #   color = "#a8a8a8"
-      #   # font = "XHei Ubuntu Regular 16"
-      #   font = "DejaVu Sans Bold 14"
-      #   align = "left"
-      # }
-  # }
-  # + label {
-  #   text = "Use <UP> and <DOWN> to select which entry is highlighted" 
-  #   color = "#a8a8a8"
-  #   # font = "XHei Ubuntu Regular 16"
-  #   font = "DejaVu Sans Bold 14"
-  #   align = "left"
-  # }
-  # + label {
-  #   text = "Press enter to boot the selected OS, 'e' to edit the commands before booting or 'c' for a command-line" 
-  #   color = "#a8a8a8"
-  #   # font = "XHei Ubuntu Regular 16"
-  #   font = "DejaVu Sans Bold 14"
-  #   align = "left"
-  # }
-  # + label { text = "- 中文测试" color = "#E6DDD5" font = "XHei Ubuntu Regular 16" }
-  # + label { text = "中文测试" color = "#E6DDD5" font = "DejaVu Sans Bold 14" }
-# }
