@@ -32,7 +32,7 @@ terminal-font: "Unifont Regular 16"
   id = "__timeout__"
   text = "Booting in %d seconds"
   color = "#a34545"
-  font = "DejaVu Sans Regular 12"
+  font = "Unifont Regular 16"
   align = "left"
 }
 
@@ -42,14 +42,22 @@ terminal-font: "Unifont Regular 16"
   left = 15%
   text = "Use <UP> and <DOWN> to select which entry is highlighted" 
   color = "#a8a8a8"
-  font = "DejaVu Sans Regular 12"
+  font = "Unifont Regular 16"
   align = "left"
 }
 + label {
   top = 82%+20+20
   left = 15%
-  text = "Press <ENTER> to boot the selected OS, 'e' to edit the commands before booting or 'c' for a command-line" 
+  text = "Press <ENTER> to boot the selected OS" 
   color = "#a8a8a8"
-  font = "DejaVu Sans Regular 12"
+  font = "Unifont Regular 16"
+  align = "left"
+}
++ label {
+  top = 82%+20+20+20
+  left = 15%
+  text = "Press 'e' to edit the commands before booting or 'c' for a command-line" 
+  color = "#a8a8a8"
+  font = "Unifont Regular 16"
   align = "left"
 }
