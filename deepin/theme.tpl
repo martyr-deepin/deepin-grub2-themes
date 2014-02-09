@@ -28,7 +28,7 @@ terminal-font: "Unifont Regular 16"
 # Show a countdown message using the label component
 + label {
   top = 82%
-  left = 15%
+  left = 20%
   id = "__timeout__"
   text = "Booting in %d seconds"
   color = "#a34545"
