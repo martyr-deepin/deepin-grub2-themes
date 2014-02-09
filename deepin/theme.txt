@@ -35,29 +35,3 @@ terminal-font: "Unifont Regular 16"
   font = "Unifont Regular 16"
   align = "left"
 }
-
-# Show an informational message below the boot menu
-+ label {
-  top = 82%+20
-  left = 15%
-  text = "Use <UP> and <DOWN> to select which entry is highlighted" 
-  color = "#a8a8a8"
-  font = "Unifont Regular 16"
-  align = "left"
-}
-+ label {
-  top = 82%+20+20
-  left = 15%
-  text = "Press <ENTER> to boot the selected OS" 
-  color = "#a8a8a8"
-  font = "Unifont Regular 16"
-  align = "left"
-}
-+ label {
-  top = 82%+20+20+20
-  left = 15%
-  text = "Press 'e' to edit the commands before booting or 'c' for a command-line" 
-  color = "#a8a8a8"
-  font = "Unifont Regular 16"
-  align = "left"
-}
