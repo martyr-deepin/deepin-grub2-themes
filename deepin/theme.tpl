@@ -1,9 +1,9 @@
 # GRUB2 gfxmenu Linux Deepin theme
-# Designed for 1024x768 resolution
+# Designed for any resolution
 
 # Global Property
 title-text: ""
-desktop-image: "{{.Background}}"
+desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
 
