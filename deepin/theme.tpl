@@ -18,7 +18,6 @@ terminal-font: "Unifont Regular 16"
   selected_item_color = "{{.SelectedItemColor}}"
   item_height = 24
   item_spacing = 12
-  selected_item_pixmap_style = "select_*.png"
   menu_pixmap_style = "empty_*.png"
   scrollbar = true
   scrollbar_width = 8
@@ -28,7 +27,7 @@ terminal-font: "Unifont Regular 16"
 # Show a countdown message using the label component
 + label {
   top = 82%
-  left = 20%
+  left = 40%
   id = "__timeout__"
   text = "Booting in %d seconds"
   color = "#a34545"
