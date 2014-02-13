@@ -22,11 +22,10 @@ terminal-box: "terminal_box_*.png"
   item_icon_space = 12
   item_height = 36
   item_spacing = 24
-  # menu_pixmap_style = "empty_*.png"
   menu_pixmap_style = "menu_box_light_*.png"
   scrollbar = true
   scrollbar_width = 8
-  scrollbar_thumb = "sb_th_*.png"
+  scrollbar_thumb = "scrollbar_light_*.png"
 }
 
 # Show a countdown message using the label component

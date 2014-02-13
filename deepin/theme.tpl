@@ -17,12 +17,15 @@ terminal-box: "terminal_box_*.png"
   item_font = "Unifont Regular 16"
   item_color = "{{.ItemColor}}"
   selected_item_color = "{{.SelectedItemColor}}"
-  item_height = 24
-  item_spacing = 12
-  menu_pixmap_style = "empty_*.png"
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 12
+  item_height = 36
+  item_spacing = 24
+  menu_pixmap_style = "{{.MenuPixmapStyle}}"
   scrollbar = true
   scrollbar_width = 8
-  scrollbar_thumb = "sb_th_*.png"
+  scrollbar_thumb = "{{.ScrollbarThumb}}"
 }
 
 # Show a countdown message using the label component
