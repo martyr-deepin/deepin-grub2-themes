@@ -6,7 +6,6 @@ title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
-# terminal-box: "terminal_box_bright_*.png"
 terminal-box: "terminal_box_dark_*.png"
 
 # Show the boot menu
@@ -16,18 +15,16 @@ terminal-box: "terminal_box_dark_*.png"
   width = 70%
   height = 60%
   item_font = "Unifont Regular 16"
-  item_color = "#a6a6a6"
+  item_color = "#a8a8a8"
   selected_item_color = "#05abcf"
   icon_width = 36
   icon_height = 36
   item_icon_space = 12
   item_height = 36
-  item_spacing = 24
-  # menu_pixmap_style = "menu_box_bright_*.png"
+  item_spacing = 0
   menu_pixmap_style = "menu_box_dark_*.png"
   scrollbar = true
   scrollbar_width = 8
-  # scrollbar_thumb = "scrollbar_bright_*.png"
   scrollbar_thumb = "scrollbar_dark_*.png"
 }
 
@@ -40,46 +37,7 @@ terminal-box: "terminal_box_dark_*.png"
   show_text = true
   font = "Unifont Regular 16"
   text_color = "#a34545"
-  text = "@TIMEOUT_NOTIFICATION_LONG@"
-  # text = "Booting in %d seconds"
+  text = "Booting in %d seconds"
   bar_style = "menu_box_dark_*.png"
   highlight_style = "empty_*.png"
 }
-# + label {
-#   id = "__timeout__"
-#   top = 82%
-#   left = 40%
-#   text = "Booting in %d seconds"
-#   color = "#a34545"
-#   font = "Unifont Regular 16"
-#   align = "left"
-# }
-# + circular_progress {
-#   id = "__timeout__"
-#   # left = 7%-50
-#   # top = 58%-50
-#   top = 82%
-#   left = 40%
-#   width = 200
-#   height = 100
-#   # num_ticks = 300
-#   # start_angle = -56
-#   # ticks_disappear = false
-#   center_bitmap = "timeout_bg_dark.png"
-#   tick_bitmap = "empty.png"
-# }
-# + circular_progress {
-#   id = "__timeout__"
-#   top = 82%
-#   left = 40%
-#   center_bitmap = "timeout_bg_dark.png"
-# }
-# + image {
-#   top = 82%
-#   left = 40%
-#   # id = "__timeout__"
-#   # width = 150
-#   # height = 113
-#   file = "timeout_bg_dark.png"
-# }
-

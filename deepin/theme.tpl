@@ -10,8 +10,8 @@ terminal-box: "{{.TerminalBox}}"
 
 # Show the boot menu
 + boot_menu {
-  left = 15%
   top = 20%
+  left = 15%
   width = 70%
   height = 60%
   item_font = "Unifont Regular 16"
@@ -21,20 +21,23 @@ terminal-box: "{{.TerminalBox}}"
   icon_height = 36
   item_icon_space = 12
   item_height = 36
-  item_spacing = 24
+  item_spacing = 0
   menu_pixmap_style = "{{.MenuPixmapStyle}}"
   scrollbar = true
   scrollbar_width = 8
   scrollbar_thumb = "{{.ScrollbarThumb}}"
 }
 
-# Show a countdown message using the label component
-+ label {
-  top = 82%
-  left = 40%
+# Show the timeout message
++ progress_bar {
   id = "__timeout__"
-  text = "Booting in %d seconds"
-  color = "#a34545"
+  top = 85%
+  left = 35%
+  width = 30%
+  show_text = true
   font = "Unifont Regular 16"
-  align = "left"
+  text_color = "#a34545"
+  text = "Booting in %d seconds"
+  bar_style = "{{.MenuPixmapStyle}}"
+  highlight_style = "empty_*.png"
 }
