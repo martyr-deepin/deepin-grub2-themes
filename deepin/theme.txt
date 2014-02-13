@@ -17,9 +17,13 @@ terminal-box: "terminal_box_*.png"
   item_font = "Unifont Regular 16"
   item_color = "#a6a6a6"
   selected_item_color = "#05abcf"
-  item_height = 24
-  item_spacing = 12
-  menu_pixmap_style = "empty_*.png"
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 12
+  item_height = 36
+  item_spacing = 24
+  # menu_pixmap_style = "empty_*.png"
+  menu_pixmap_style = "menu_box_light_*.png"
   scrollbar = true
   scrollbar_width = 8
   scrollbar_thumb = "sb_th_*.png"
