@@ -6,6 +6,7 @@ title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
+terminal-box: "terminal_box_*.png"
 
 # Show the boot menu
 + boot_menu {
