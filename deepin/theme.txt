@@ -6,14 +6,21 @@ title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
+# terminal-box: "terminal_box_bright_*.png"
 terminal-box: "terminal_box_dark_*.png"
 
 # Show the boot menu
 + boot_menu {
-  top = 20%
-  left = 15%
-  width = 70%
-  height = 60%
+  # top = 20% 155
+  # left = 15% 155
+  # top = 30%
+  # left = 30%
+  # width = 35%
+  # height = 35%
+  top = 12%
+  left = 12%
+  width = 76%
+  height = 76%
   item_font = "Unifont Regular 16"
   item_color = "#a8a8a8"
   selected_item_color = "#05abcf"
@@ -22,16 +29,20 @@ terminal-box: "terminal_box_dark_*.png"
   item_icon_space = 12
   item_height = 36
   item_spacing = 0
-  menu_pixmap_style = "menu_box_dark_*.png"
+  # menu_pixmap_style = "menu_box_dark_*.png"
+  menu_pixmap_style = "terminal_box_dark_*.png"
   scrollbar = true
   scrollbar_width = 8
-  scrollbar_thumb = "scrollbar_dark_*.png"
+  # scrollbar_thumb = "scrollbar_bright_*.png"
+  # scrollbar_thumb = "scrollbar_dark_*.png"
+  # max_items_shown = 8
 }
 
 # Show the timeout message
 + progress_bar {
   id = "__timeout__"
-  top = 85%
+  # top = 85%
+  top = 92%
   left = 35%
   width = 30%
   show_text = true
@@ -39,5 +50,6 @@ terminal-box: "terminal_box_dark_*.png"
   text_color = "#a34545"
   text = "Booting in %d seconds"
   bar_style = "menu_box_dark_*.png"
+  # bar_style = "terminal_box_dark_*.png"
   highlight_style = "empty_*.png"
 }
