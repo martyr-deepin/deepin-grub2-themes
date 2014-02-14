@@ -6,38 +6,30 @@ title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
-terminal-box: "{{.TerminalBox}}"
+terminal-box: "terminal_box_*.png"
 
 # Show the boot menu
 + boot_menu {
-  top = 20%
   left = 15%
+  top = 20%
   width = 70%
   height = 60%
   item_font = "Unifont Regular 16"
   item_color = "{{.ItemColor}}"
   selected_item_color = "{{.SelectedItemColor}}"
-  icon_width = 36
-  icon_height = 36
-  item_icon_space = 12
-  item_height = 36
-  item_spacing = 0
-  menu_pixmap_style = "{{.MenuPixmapStyle}}"
-  scrollbar = true
-  scrollbar_width = 8
-  scrollbar_thumb = "{{.ScrollbarThumb}}"
+  item_height = 24
+  item_spacing = 12
+  selected_item_pixmap_style = "select_*.png"
 }
 
-# Show the timeout message
-+ progress_bar {
-  id = "__timeout__"
-  top = 85%
+# Show a countdown message using the label component
++ label {
+  top = 82%
   left = 35%
   width = 30%
-  show_text = true
-  font = "Unifont Regular 16"
-  text_color = "#a34545"
+  align = "center"
+  id = "__timeout__"
   text = "Booting in %d seconds"
-  bar_style = "{{.MenuPixmapStyle}}"
-  highlight_style = "empty_*.png"
+  color = "#a34545"
+  font = "Unifont Regular 16"
 }
