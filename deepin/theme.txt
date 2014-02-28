@@ -15,8 +15,8 @@ terminal-box: "terminal_box_*.png"
   width = 70%
   height = 60%
   item_font = "Unifont Regular 16"
-  item_color = "#a8a8a8"
-  selected_item_color = "#05abcf"
+  item_color = "#cccccc"
+  selected_item_color = "#0099ff"
   item_height = 24
   item_spacing = 12
   selected_item_pixmap_style = "select_*.png"
