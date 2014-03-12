@@ -7,6 +7,11 @@ desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Unifont Regular 16"
 terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
 
 # Show the boot menu
 + boot_menu {
