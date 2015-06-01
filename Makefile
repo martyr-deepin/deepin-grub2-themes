@@ -1,7 +1,14 @@
+DESTDIR=
+TARGET=$(DESTDIR)/boot/grub/themes
+
 all:
 
 install:
-	cp -rf themes/deepin/ /boot/grub/themes/
+	install -dm755 $(TARGET)
+	@for i in `ls themes/`;do [ -d themes/$$i ] && cp -ar themes/$$i $(TARGET);done
+	@echo "Fixing permission of files..."
+	@find $(TARGET) -type d -exec chmod 755 \{\} \;
+	@find $(TARGET) -type f -exec chmod 644 \{\} \;
 
 uninstall:
-	rm -rf /boot/grub/themes/deepin/
+	rm -rf $(TARGET)
