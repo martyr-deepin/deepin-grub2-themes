@@ -1,0 +1,5 @@
+{
+    "BrightScheme":{"ItemColor":"#333333","SelectedItemColor":"#0099ff","TerminalBox":"terminal_box_bright_*.png","MenuPixmapStyle":"menu_box_bright_*.png","ScrollbarThumb":"scrollbar_bright_*.png"},
+    "DarkScheme":{"ItemColor":"#cccccc","SelectedItemColor":"#0099ff","TerminalBox":"terminal_box_dark_*.png","MenuPixmapStyle":"menu_box_dark_*.png","ScrollbarThumb":"scrollbar_dark_*.png"},
+    "CurrentScheme":{"ItemColor":"#cccccc","SelectedItemColor":"#0099ff","TerminalBox":"terminal_box_dark_*.png","MenuPixmapStyle":"menu_box_dark_*.png","ScrollbarThumb":"scrollbar_dark_*.png"}
+}
