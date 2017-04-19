@@ -12,7 +12,3 @@ install:
 
 uninstall:
 	rm -rf $(TARGET)
-
-test:
-	@echo "NOTICE: xorriso, qemu and grub2-theme-preview(https://github.com/hartwork/grub2-theme-preview) is requried"
-	grub2-theme-preview --grub2-mkrescue grub-mkrescue --grub-cfg testdata/grub.cfg themes/deepin/
