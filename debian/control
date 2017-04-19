@@ -1,0 +1,15 @@
+Source: grub-themes-deepin
+Section: universe/misc
+Priority: extra
+Maintainer: Yueqian Zhang <zhangyueqian@linuxdeepin.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: http://www.deepin.org/
+#Vcs-Git: git://git.debian.org/collab-maint/grub-themes-dharma.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/grub-themes-dharma.git;a=summary
+
+Package: grub-themes-deepin
+Architecture: all
+Depends: grub2-common, ${misc:Depends},
+Description: Deepin theme for grub2
+ Beautiful grub2 theme made by Linuxdeepin with some midified pics.
